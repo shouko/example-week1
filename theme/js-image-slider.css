@@ -10,7 +10,7 @@ h2{
 #sliderFrame 
 {
     position:relative;
-    width:96%;
+    width:1100px;
     margin:0 auto; /*center-aligned*/
     text-align: center;
 }
@@ -23,8 +23,9 @@ h2{
 	background:#fff url(?fn=loading.gif) no-repeat 50% 50%;
 	position:relative;
 	margin:0 auto; /*center-aligned*/
-    transform: translate3d(0,0,0);
-    box-shadow: 0px 1px 5px #999999;
+    transform: translate3d(0,0,0); 
+   box-shadow: 0px 1px 5px #999999;
+   background-size: cover;
 }
 
 /* image wrapper */
