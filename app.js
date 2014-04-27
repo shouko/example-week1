@@ -25,10 +25,10 @@ http.createServer(function (req, res){
 	
 	res.writeHeader(200, {"Content-Type": "text/html"});
 
-	var data = '<html><head>';
+	var data = '<html><head><title>Welcome to NTU IM Camp 2014</title>';
 	data += '<link href="?fn=js-image-slider.css" rel="stylesheet" type="text/css" />';
     data += '<script src="?fn=js-image-slider.js" type="text/javascript"></script>';
-	data += '</head><body><div id="sliderFrame"><div id="slider">';
+	data += '</head><body><div id="sliderFrame"><h2>Welcome to NTU IM Camp 2014</h2><div id="slider">';
 
 	var request = require("request");
 	var url = "http://graph.facebook.com/2014NTUIMCAMP/photos?type=uploaded";

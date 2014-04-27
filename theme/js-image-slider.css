@@ -2,15 +2,21 @@
 originally by http://www.menucool.com
 */
 
+h2{
+	font-family: Arial;
+	color: gray;
+}
+
 #sliderFrame 
 {
     position:relative;
-    width:1000px;
+    width:96%;
     margin:0 auto; /*center-aligned*/
+    text-align: center;
 }
 
 #slider, #slider div.sliderInner {
-    width:1000px;height:600px;/* Must be the same size as the slider images */
+    width:96%;height:600px;/* Must be the same size as the slider images */
 }
 
 #slider {
@@ -65,9 +71,9 @@ originally by http://www.menucool.com
 
 
 /* ------ built-in navigation bullets wrapper ------*/
-/* Note: check themes\2\js-image-slider.css to see how to hide nav bullets */
+
 #slider div.navBulletsWrapper  {
-    top:620px;/* Its position is relative to the #slider */
+    top:550px;/* Its position is relative to the #slider */
 	text-align:center;
 	background:none;
 	position:relative;
